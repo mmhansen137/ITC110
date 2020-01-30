@@ -36,7 +36,62 @@ implicit typing/casting
 round() can round to specified number of digits
  takes 2nd arg
  
+using int() instead of eval for int input safer than eval()
+
+simultaneous has limit based on casting ____
+
+change counter program
+
+quarters, dimes, nickels, pennies . . .
+
+
+idlex  (find idlex.py)
+ adds line numbers
+ 
+ ceiling, floor
+ 
+ squaring : math.pow(b 2)
+ import math lib
+ math.sqrt(x)
+ 
+ 
+ import math
+ def quadrat():
+  
+  print(1 - b + math.sqrt(b ** 2) - 4 * a * c) / 2 * a)
+  print(1 - b - math.sqrt(b ** 2) - 4 * a * c) / 2 * a)
+
+<<< begin quatrat.py >>>
+import math
+def quadrat():
+    print("Get the roots of a quadratic.")
+    a = int(input("Enter coefficient A: "))
+    b = int(input("Enter coefficient B: "))
+    c = int(input("Enter coefficient C: "))
+    print((1 - b + math.sqrt(b ** 2) - 4 * a * c) / 2 * a)
+    print((1 - b - math.sqrt(b ** 2) - 4 * a * c) / 2 * a)
+
+quadrat()
+<<< end quadrat.py
+
+
+from math import . . .
+
+math.pow
+
+https://www.cs.trinity.edu/~jhowland/ccsc98/ccsc98/node5.html
+
+
+factorial
+
+accumulator pattern
+
+initial variable to 1 when 0 won't work
+
+use range (start, stop, step)
 
 
 
+Wk5: download graphics library (book)
 
+Try the new cross-platform PowerShell https://aka.ms/pscore6
