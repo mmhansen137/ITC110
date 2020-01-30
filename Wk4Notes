@@ -1,0 +1,42 @@
+Notes for week 4 of class
+29 January 2020
+
+Math libraries
+
+See tutoring schedule if nssy
+
+sep argument to print
+
+numeric data types
+
+floating point numbers imprecise due to rounding (floor ceiling)
+
+16 digit floats approx
+
+type function to determine type
+
+type(thing) => type of thing
+
+floats, ints, strings, etc.
+
+many algorithms are more efficient with ints than floats
+
+div 2 floats : floats
+
+div 2 ints: floats, but possible to truncate to int
+
+modulus operator gives remainder sep.
+
+combining types ints + floats  coerce to float (no lost info, but lost precision
+
+adding .0 coerces to float
+
+implicit typing/casting
+
+round() can round to specified number of digits
+ takes 2nd arg
+ 
+
+
+
+
