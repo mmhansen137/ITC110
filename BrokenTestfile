@@ -1,0 +1,26 @@
+# phrase2acronym.py
+#
+# A program to convert phrases to acronyms.
+# Input is a string, output is a string.
+#
+# Michael M. Hansen, ITC 110 Winter 2020
+# 19 February 2020
+#
+
+from string import *
+
+def main():
+    print("This program converts phrases to acronyms.")
+    phraseString = input("Please enter a phrase: ")
+    phraseList = phraseString.split()   # split the string into a list of strings, at spaces
+    acronymList = []                    # intialize acronymList
+    i = 0                               # zero-out iteration counter
+    sizeOfPhraseList = len(phraseList)
+    for i in range(sizeOfPhraseList) :    # loop over phraseList, building acronymList
+        acronymList.append(phraseList[i][0])
+        i += 1
+    
+    acronymString = acronymList.join    # convert acronymList from a list of strings to a string
+    print(acronymString)
+
+main()
