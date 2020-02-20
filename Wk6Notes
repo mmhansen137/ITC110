@@ -1,0 +1,28 @@
+Files
+
+outfile = open("mydata.out", "w") # open for writing
+
+
+from tkinter.filedialog import askopenfilename
+
+infineName = askopenfilename()
+
+infile = open(inf
+
+
+
+def score2grade():
+    score = int(input("Score: "))
+    if ( score < 60 ):
+            grade = "F"
+    elif ( score < 70 ):
+            grade = "D"
+    elif ( score < 80 ):
+            grade = "C"
+    elif ( score < 90 ):
+            grade = "B"
+    else:
+            grade = "A"
+    print(grade)
+
+score2grade()
