@@ -1,4 +1,9 @@
 # tempThing.py
+# Note: this program will eventually crash because Guido doesn't appreciate recursion.
+
+import sys
+recurLimit=65535
+sys.setrecursionlimit(recurLimit)
 
 def f2c(fTemp):
     return ((fTemp - 32) * 5 / 9)
