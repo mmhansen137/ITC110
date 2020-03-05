@@ -1,0 +1,30 @@
+Relational, Logical, Aritmetical operator (predicate?) sets
+
+== distinguished from = since the latter is assignment operator.
+
+lexigraphic comparisons
+
+Oxford prof: "arithmetic is not a math professor's strong suit"
+
+https://intl.seattlecentral.edu/upload/rte/file/pdfs/course-catalog.pdf
+
+ https://mcsp.wartburg.edu/zelle/python/ppics3/index.html
+ 
+ "Use exception handling exceptionally."
+ 
+ See quadratic5.py try/except
+ 
+ Python built-in exceptions
+  exceptions class
+  
+    inheritance
+    
+    
+    See strategy 3 sequential processing in Chapter 7 slides
+    maxval = x1
+if x2 > maxval:
+    maxval = x2
+if x3 > maxval:
+    maxval = x3
+https://docs.google.com/presentation/d/1lHKdVvkv7hhYpXhXJqMzH43alfeMKQPbyO6KtFdcAuk/edit#slide=id.p83
+
