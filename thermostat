@@ -1,0 +1,44 @@
+# tempThing.py
+# Note: this program will eventually crash because Guido doesn't appreciate recursion.
+
+import sys
+recurLimit=65535
+sys.setrecursionlimit(recurLimit)
+
+def f2c(fTemp):
+    return ((fTemp - 32) * 5 / 9)
+    
+
+def c2f(cTemp):
+    return ((cTemp * 9 / 5) + 32)
+
+def fahrTherm(fahrTemp):
+    if fahrTemp >= 90
+    
+    elif fahrTemp == 
+    
+    elif fahrTemp <=
+    
+    else: main()
+
+def celsTherm(celsTemp):
+    if celsTemp >= 90
+    
+    elif celsTemp == 
+    
+    elif celsTemp <=
+    
+    else: main()
+
+def main():
+    print("Thermostat")
+    convChoice = input("Enter C for Celsius to Fahrenheit, F for Fahrenheit to Celsius, or E to exit: ")
+    if convChoice == "C":
+        fahrTherm(c2f(float(input("Enter temperature in Celsius: "))))
+    elif convChoice == "F":
+        celsTherm(f2c(float(input("Enter temperature in Fahrenheit: "))))
+    elif convChoice == "E":
+        exit()
+    else: main()
+
+main()
