@@ -28,3 +28,19 @@ if x3 > maxval:
     maxval = x3
 https://docs.google.com/presentation/d/1lHKdVvkv7hhYpXhXJqMzH43alfeMKQPbyO6KtFdcAuk/edit#slide=id.p83
 
+know thy complexities big o cheat sheet site
+"Big O Complexity Chart"
+
+Java 2 class covers big O
+
+permutation problem
+n factorial
+
+If I can do it for 2 variables, figure out how to do it for n variables
+
+minimum viable product is specific case, then expand/generalize
+
+remember to look for built-in functions, library functions
+
+
+
